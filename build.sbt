@@ -10,6 +10,10 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
-  "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
+  "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
+  "com.typesafe.play" %% "play-slick" % "2.0.0"
+  
+  // todo: add evolutions
+  // "com.typesafe.play" %% "play-slick-evolutions" % "2.0.0"
 )
 
