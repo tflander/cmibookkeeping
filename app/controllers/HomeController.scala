@@ -18,7 +18,7 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("Hello Mary Jane."))
+    Ok(views.html.index("Hello Mary Jane.  Will this auto deploy?"))
   }
 
 }
